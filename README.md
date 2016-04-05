@@ -1,4 +1,4 @@
-# cordova-plugin-barcode 
+# cordova-plugin-barcode
 # Barcode Scanner a pluggin for Cordova
 
 This plugin implements barcode scanner on Cordova 4.0
@@ -8,13 +8,13 @@ This plugin implements barcode scanner on Cordova 4.0
 * Android 4.0.0 or above
 * iOS 7.0.0 or above
 
-![二维码图片](http://7xs68i.com1.z0.glb.clouddn.com/IMG_1772.PNG)
+![Screenshot](./IMG_1772.png)
 
 ## Use Tips
 
 cordova plugin add [dir]
 
-## JS 
+## JS
 ``` js
 com.jieweifu.plugins.barcode.startScan(function(success){
     alert(JSON.stringify(success));
